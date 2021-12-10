@@ -68,7 +68,9 @@ export default function Landing() {
 									<p>UP TO 25% OFF</p>
 									<p>On all the T-Shirt brands</p>
 								</div>
-								<button className="offer-btn offer-001">GET NOW</button>
+								<Link to={{ pathname: "sign-in" }}>
+                  <button className="offer-btn offer-001">GET NOW</button>
+                </Link>
 							</div>
 							<div className="offer-items">
 								<img className="offer-image" src={OfferImage002} alt="" />
@@ -76,7 +78,9 @@ export default function Landing() {
 									<p>UP TO 35% OFF</p>
 									<p>On all the Hat brands</p>
 								</div>
-								<button className="offer-btn offer-002">GET NOW</button>
+								<Link to={{ pathname: "sign-in" }}>
+                  <button className="offer-btn offer-001">GET NOW</button>
+                </Link>
 							</div>
 							<div className="offer-items">
 								<img className="offer-image" src={OfferImage003} alt="" />
@@ -84,7 +88,9 @@ export default function Landing() {
 									<p>UP TO 50% OFF</p>
 									<p>On all the Bottom brands</p>
 								</div>
-								<button className="offer-btn offer-003">GET NOW</button>
+								<Link to={{ pathname: "sign-in" }}>
+                  <button className="offer-btn offer-001">GET NOW</button>
+                </Link>
 							</div>
 							<div className="offer-items">
 								<img className="offer-image" src={OfferImage004} alt="" />
@@ -92,7 +98,9 @@ export default function Landing() {
 									<p>UP TO 75% OFF</p>
 									<p>On all the Shirt brands</p>
 								</div>
-								<button className="offer-btn offer-004">GET NOW</button>
+								<Link to={{ pathname: "sign-in" }}>
+                  <button className="offer-btn offer-001">GET NOW</button>
+                </Link>
 							</div>
 						</div>
 					</div>
