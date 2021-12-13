@@ -27,16 +27,6 @@ const Footer = () => {
 						)}
 					</div>
 				</div>
-				<div className="footer-container">
-					<h2>Support</h2>
-					<div className="footer-content">
-						<Link to="#">Contact Us</Link>
-					</div>
-				</div>
-			</div>
-			<div className="social-icon">
-				<img src={FacebookIcon} alt="" />
-				<img src={InstagramIcon} alt="" />
 			</div>
 
 			<hr className="line" />
